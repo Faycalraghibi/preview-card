@@ -1,0 +1,151 @@
+/* Base styles (for larger screens) */
+body {
+    background-color: #f5d04e;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 3%;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.svg-container {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.svg-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#learn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 12px;
+    background-color: #f7c955;
+    max-width: fit-content;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#publish {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.htmlcss {
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.text {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#Greg {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+/* Tablet styles (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .main {
+        max-width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    #learn {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .htmlcss {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    #publish {
+        font-size: 12px;
+    }
+
+    #Greg {
+        font-size: 14px;
+    }
+}
+
+/* Mobile styles (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main {
+        max-width: 100%;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #learn {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    .htmlcss {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    #publish {
+        font-size: 10px;
+    }
+
+    .card img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #Greg {
+        font-size: 12px;
+    }
+}
