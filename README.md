@@ -4,15 +4,6 @@ This project is a simple **Blog Preview Card** built using HTML and CSS. The car
 
 ![Preview](./assets/images/illustration-article.svg)
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-
 ## Overview
 
 This project demonstrates a **blog preview card**, where you can see a brief article description, author details, and a featured image. It is built using a modern, minimal design, and it's a great starting point for learning basic web development techniques with responsive design.
