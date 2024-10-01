@@ -33,7 +33,7 @@ You just need a modern web browser to run the project locally. No additional set
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blog-preview-card.git
+   git clone https://github.com/Faycalraghibi/preview-card.git
    ```
 
 2. Navigate to the project directory:
